@@ -1,0 +1,43 @@
+.section-header{
+    padding: 20px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+.content-col{
+    display: flex;
+    align-items: center;
+}
+
+.content-col-row-small{
+    width: 30%;
+    padding: 139px 0px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.content-col-row-big{
+    width: 70%;
+}
+
+.content-col-row-1{
+    padding: 100px;
+    background-color: orange;
+    text-align: center;
+}
+
+.content-col-row-2{
+    padding: 30px;
+    background-color: gray;
+    text-align: center;
+}
+
+.section-footer{
+    padding: 30px 0px;
+    text-align: center;
+    background-color: orange;
+}
