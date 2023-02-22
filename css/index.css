@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0px;
+}
+
+.assignment-link:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 25px;
+    color: #fff;
+}
+
+.assignment-link{
+    text-decoration: none;
+    color: #7e0101;
+    padding: 25px;
+    display: block;
+}
+
+.section-banner{
+    padding-top: 50px;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.social-media-list{
+    display: inline-block;
+}
+
+.social-media-list > a{
+    padding: 15px 18px;
+  
+    border-radius: 50%;
+}
+
+.facebook-link{
+    background-color:#3b5998;
+}
+
+.facebook{
+    color:  #fff;
+    font-size: 20px;
+}
+
+.insta-link{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 56%, rgba(252,176,69,1) 99%);
+}
+
+.insta{
+    color: #feda75;
+    font-size: 20px;
+}
+
+.linked-in-link{
+    background-color: #04045b;
+}
+
+.linked-in{
+    color: #fff;
+}
+
+.twitter-link{
+    background-color: #0bb6ef;
+}
+
+.twitter{
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0000003d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: 0 auto;
+}
